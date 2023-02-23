@@ -1,0 +1,7 @@
+- handlebars for various pages
+    - home **
+    - login 
+    - logout
+    - individual blog page
+        - comment functionality
+    - profile page?

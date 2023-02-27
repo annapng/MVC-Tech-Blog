@@ -1,0 +1,31 @@
+<div class="post">
+
+  <h2>{{name}}</h2>
+   
+   <p>Created by {{user.name}} on {{date_created}}</p>
+  <p>{{content}}</p>
+
+
+</div>
+
+<div class="comments">
+  <h3>Comments</h3>
+  {{#each comments as |comment|}}
+
+    <div class="individualComment">
+      <p>Commented by {{comment.name}} on {{date_created}}</p>
+      <p>{{comment.comment}}</p>
+    </div>
+
+    {{/each}}
+
+</div>
+
+
+<div class="addComment">
+
+
+
+
+
+</div>

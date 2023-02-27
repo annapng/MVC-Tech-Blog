@@ -1,14 +1,8 @@
-/*body {
-    background-color: black;
-    background-image: linear-gradient(#6d00a8 0.5px, transparent 0.5px, transparent calc(100% - 0.5px), #6d00a8 calc(100% - 0.5px)), linear-gradient(90deg, #6d00a8 0.5px, transparent 0.5px, transparent calc(100% - 0.5px), #6d00a8 calc(100% - 0.5px));
-    background-size: 5% 50%;
-    border: 0.5px solid #6d00a8;
-} */
-
 #headerDiv {
     position: fixed;
     top: 0;
-    width: 100%;
+    right:0;
+    width: 110%;
     height: 15%;
     text-align: center;
     background-color: darkmagenta;
@@ -17,7 +11,8 @@
 #navbar {
     position: absolute;
     top: 15%;
-    width: 100%;
+    right: 0;
+    width: 110%;
     height: 5%;
     text-align: right;
     background-color: darkmagenta;
@@ -29,6 +24,10 @@
     bottom: 0;
     border: 5px solid black;
     width: 80%;
-    height: 80%;
+    height: 78%;
     left: 10%;
+}
+
+#titleLink {
+    text-decoration: none;
 }

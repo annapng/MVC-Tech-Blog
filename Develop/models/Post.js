@@ -15,8 +15,8 @@ Post.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    description: {
-      type: DataTypes.STRING,
+    content: {
+      type: DataTypes.TEXT,
     },
     date_created: {
       type: DataTypes.DATE,
@@ -29,7 +29,7 @@ Post.init(
         model: 'user',
         key: 'id',
       },
-    },
+    }
   },
   {
     sequelize,

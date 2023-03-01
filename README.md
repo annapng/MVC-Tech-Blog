@@ -1,5 +1,13 @@
 # MVC Tech Blog
 
+## Description
+
+This is a test website that allows the CRUD methods (Create, Read, Update, Delete) on various "tech" posts. It also allows the user to login with their own authenticated and protected account to create, edit, or delete the posts on the website.
+
+## Screenshot
+
+![Screenshot of website](Screenshot.png)
+
 ## User Story
 
 AS A developer who writes about tech
@@ -35,9 +43,29 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinionsSO THAT 
 - [x] THEN I am prompted to enter both a title and contents for my blog post
 - [x] WHEN I click on the button to create a new blog post
 - [x] THEN the title and contents of my post are saved and I am taken back to an updated dashboard with my new blog post
-- [ ] WHEN I click on one of my existing posts in the dashboard
-- [ ] THEN I am able to delete or update my post and taken back to an updated dashboard
+- [x] WHEN I click on one of my existing posts in the dashboard
+- [x] THEN I am able to delete or update my post and taken back to an updated dashboard
 - [x] WHEN I click on the logout option in the navigation
 - [x] THEN I am signed out of the site
 - [x] WHEN I am idle on the site for more than a set time
 - [x] THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
+
+## Contributions
+
+The technology/packages used to create this test website are:
+- HTML
+- CSS
+- Javascript
+- Node.js
+- Express
+- Handlebars
+- Bcrypt
+- MySQL2
+- Sequelize
+
+## Pitfalls / Improvements for the Future
+
+- Fixing the styling of this website
+- Being able to make it into my own blog website
+- Allow anonymous comments 
+

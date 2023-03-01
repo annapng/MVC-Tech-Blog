@@ -4,6 +4,7 @@
          
          {{#if logged_in}}
          <div class="deleteButton"><button id="deleteBtn" data-id="{{id}}">delete</button></div>
+         <a href="/edit/{{id}}"><div class="editButton"><button id="editBtn" data-id="{{id}}">edit</button></div></a>
         {{/if}}
 
    <p>Created by {{user.name}} on {{date_created}}</p>
@@ -15,8 +16,6 @@
 <div class="comments">
   <h3>Comments</h3>
   {{#each comments as |comment|}}
-
-
 
     <div class="individualComment">
         {{#if ../logged_in}}

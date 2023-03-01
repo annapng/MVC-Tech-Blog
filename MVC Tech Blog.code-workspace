@@ -1,11 +1,7 @@
 {
-	"folders": [
-		{
-			"path": ".."
-		},
-		{
-			"path": "../../bootcamp stuffz/DU-VIRT-FSF-PT-10-2022-U-LOLC/14-MVC"
-		}
-	],
-	"settings": {}
+    "folders": [
+        {
+            "path": ".."
+        }
+    ]
 }

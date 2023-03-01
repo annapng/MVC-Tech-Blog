@@ -71,4 +71,46 @@ router.delete('/comment/:id', withAuth, async (req, res) => {
 });
 
 
+router.put('/:id/edit', withAuth, async (req, res) => {
+  console.log('route');
+  Post.update(
+    {
+      name: req.body.name,
+      content: req.body.content
+    }, {
+    where:  {
+      id: req.params.id,
+    },  }
+  )
+ 
+    .then((updatedPost) => {
+      res.json(updatedPost);
+    })
+    .catch((err) => {
+      console.log(err);
+      res.json(err);
+    });
+ 
+ 
+  });
+ 
+  // try {
+
+  //   const editPost = await Post.create({
+  //     ...req.body,
+  //     user_id: req.session.user_id,
+  //   });
+
+  //   Post.findByIdAndUpdate(req.params.id, req.body) 
+  //     .then(post => {
+  //       res.redirect(`/edit/${post._id}`)
+  //     }
+  //   )
+
+  //   res.status(200).json(newPost);
+  // } catch (err) {
+  //   //res.status(400).json(err);
+  //   console.log(err);
+  // }
+
 module.exports = router;

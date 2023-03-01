@@ -69,3 +69,7 @@ The technology/packages used to create this test website are:
 - Being able to make it into my own blog website
 - Allow anonymous comments 
 
+## Links
+
+- GitHub Repo: 
+- Deployed Site: 

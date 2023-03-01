@@ -8,6 +8,12 @@ Comment.init(
         name: {
             type: DataTypes.STRING
         },
+        id: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+            autoIncrement: true,
+            primaryKey: true
+        },
         postId: {
             type: DataTypes.INTEGER,
             allowNull: false,

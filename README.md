@@ -59,9 +59,10 @@ The technology/packages used to create this test website are:
 - Node.js
 - Express
 - Handlebars
-- Bcrypt
+- Bcryptjs
 - MySQL2
 - Sequelize
+- Heroku 
 
 ## Pitfalls / Improvements for the Future
 
@@ -71,5 +72,5 @@ The technology/packages used to create this test website are:
 
 ## Links
 
-- GitHub Repo: 
-- Deployed Site: 
+- GitHub Repo: https://github.com/annapng/MVC-Tech-Blog
+- Deployed Site: https://mvc-tech-blog-666.herokuapp.com 
